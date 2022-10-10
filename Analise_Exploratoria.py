@@ -12,5 +12,7 @@ print(df["Valor Venda"].sum())
 
 df["Custo"] = df["Custo Unitário"].mul(df["Quantidade"])
 
-print(df.head(10))
+print(df.head())
+
+
 
