@@ -61,6 +61,4 @@ vendas_Marco_19 = df.loc[(df["Data"].dt.year == 2019) & (df["Data"].dt.month == 
 # print(vendas_Marco_19)
 # print(df.sample(5))
 
-grafico = df["LojaID"].value_counts(ascending=False)
-grafico.plot.bar()
 

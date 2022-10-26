@@ -15,4 +15,3 @@ df["Custo"] = df["Custo Unitário"].mul(df["Quantidade"])
 print(df.head())
 
 
-
